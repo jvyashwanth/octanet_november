@@ -168,9 +168,9 @@
                padding: 0;
              }
              
-             .todo-container {
-               position:relative;
-               color: white;
+             .container {
+               position:-webkit-sticky;
+               color:whitesmoke;
                left: 20px;
                top: 50px;
                border:transparent;
@@ -178,6 +178,30 @@
                border-radius: 8px;
                background-color:transparent;
              }
+             input[type="text"] {
+               padding: 8px;
+               width: 20%;
+               border-radius: 4px;
+               background:transparent;
+               border: 1px solid white;
+               margin-right: 10px;
+             }
+             button {
+               padding: 8px 16px;
+               border: none;
+               border-radius: 4px;
+               background-color:indigo;
+               color:white;
+               cursor: pointer;
+             }
+             
+             button:hover {
+               background-color:transparent;
+               border: 1px solid indigo;
+               transition: 0.5s;
+             }
+             
+             
              
              ul {
                list-style: none;

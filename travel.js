@@ -13,7 +13,7 @@ function addTask() {
         listItem.parentNode.removeChild(listItem);
       };
     } else {
-      alert('Please enter a task!');
+      alert('No Tasks added! , Please Add Tasks to Continue');
     }
   }
   
