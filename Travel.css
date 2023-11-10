@@ -18,18 +18,18 @@
                 justify-content:space-around;
                 align-items: center;
              }
-             .logo{
+             .logo{                                           /*logo of page*/
                 font-size: 2em;
                 letter-spacing: 2px;
              }
-             .menu a{
+             .menu a{                     /*items in nav bar*/
                 text-decoration:none;
                 color: cornsilk;
                 padding: 10px 20px;
                 font-size: 20px;
                 position: relative;
              }
-             .menu a::before{
+             .menu a::before{                         /*hovering effects in navbar*/
                 content: '';
                 position:absolute;
                 top:0;
@@ -42,7 +42,7 @@
              .menu a:hover::before{
                 width: 90%;
              }
-             .Register a{
+             .Register a{          /*Rigester button design*/
                 text-decoration: none;
                 color: aliceblue;
                 padding: 10px 20px;
@@ -51,18 +51,18 @@
                 border-radius: 10px;
                 transition: 0.3s;
              }
-             .Register a:hover{
+             .Register a:hover{             /*Rigester button hover effect*/
                 background: transparent;
                 border: 2px solid indigo;
              }
-             .h-text{
+             .h-text{     /*page c enter items design*/
                 max-width: 650px;
                 position:absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
                 text-align: center;
-                color: azure;
+                color: rgb(236, 243, 243);
              }
              .h-text span{
                 letter-spacing: 5px;
@@ -70,50 +70,50 @@
              .h-text h1{
                 font-size: 4em;
              }
-             .h-text a{
+             .h-text a{        /*enhanced learning platform button design*/
                 text-decoration: none;
-                background: indigo;
+                background:indigo;
                 color: beige;
                 padding: 10px 20px;
                 letter-spacing: 5px;
                 border-radius: 13px;
                 transition: 0.2s;
              }
-             .h-text a:hover{
+             .h-text a:hover{          /*enhanced learning platform button hover effect*/
                 background: transparent;
-                border: 2px solid indigo;
+                border: 2px solid green;
              }
-             footer{
+             footer{   /*footer design */
                 background-color: indigo;
              }
              .footerContainer{
                 width: 100%;
                 padding: 70px 20px 30px;
              }
-             .socialicons{
+             .socialicons{         /*social icons display design */
                 display: flex;
                 justify-content: center;
              } 
-             .socialicons a{
+             .socialicons a{               /*social icons  inner display design */
                 text-decoration: none;
                 padding: 10px;
                 background-color: aqua;
                 margin: 10px;
                 border-radius: 50%;
              }
-             .socialicons a i{
+             .socialicons a i{           /*social icons  inner display design */
                 font-size: 2em;
                 color:black;
                 opacity: 0.9;
 
              }
              /* hover effect on si*/
-             .socialicons a:hover{
+             .socialicons a:hover{        /*social icons  inner display design hoovering effect*/
                 background-color: #111;
                 transition: 0.5s;
 
              }
-             .socialicons a:hover i{
+             .socialicons a:hover i{   /*social icons  bottem elements design */
                 color: white;
                 transition: 0.5s;
              }
@@ -144,7 +144,7 @@
              .footerBottem p{
                 color: white;
              }
-             .designer{
+             .designer{   /*designerr information design */
                 opacity: 0.7;
                 text-transform: uppercase;
                 letter-spacing: 1px;
@@ -168,7 +168,7 @@
                padding: 0;
              }
              
-             .container {
+             .container {     /*to do list design*/
                position:-webkit-sticky;
                color:whitesmoke;
                left: 20px;
@@ -178,7 +178,7 @@
                border-radius: 8px;
                background-color:transparent;
              }
-             input[type="text"] {
+             input[type="text"] {  /* input text box design  */
                padding: 8px;
                width: 20%;
                border-radius: 4px;
@@ -186,7 +186,7 @@
                border: 1px solid white;
                margin-right: 10px;
              }
-             button {
+             button {         /*to do list add button*/
                padding: 8px 16px;
                border: none;
                border-radius: 4px;
@@ -195,7 +195,7 @@
                cursor: pointer;
              }
              
-             button:hover {
+             button:hover {      /*to do list add button hoveering effect*/
                background-color:transparent;
                border: 1px solid indigo;
                transition: 0.5s;
@@ -213,7 +213,7 @@
                cursor: pointer;
              }
              
-             li:hover {
+             li:hover {             /*added task hovering effect*/
                text-decoration: none;
                color:greenyellow;
                transition: 0.2s;
